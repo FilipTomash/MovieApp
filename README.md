@@ -13,10 +13,17 @@ cd backend_java_API/movies
 
 Set up MongoDB Atlas:
 Create an account on MongoDB Atlas.
+
 Create a new cluster and obtain the connection string.
+
+Import the JSON file from the data folder to your MongoDB database.
+
 Configure MongoDB Connection:
+
 Replace <mongo_connection_string> in application.properties with your MongoDB connection string.
+
 Run the Spring Boot Application via your favorite IDE.
+
 The backend server should now be running at http://localhost:8080.
 
 # Frontend (ReactJS)
