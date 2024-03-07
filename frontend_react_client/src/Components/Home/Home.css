@@ -1,0 +1,12 @@
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.SearchInput {
+  padding: 30px 40px;
+  > input {
+    width: 300px;
+  }
+}

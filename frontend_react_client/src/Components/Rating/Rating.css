@@ -1,0 +1,13 @@
+.rating-container {
+  display: flex;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.star:hover,
+.star.filled {
+  color: gold;
+}

@@ -1,0 +1,278 @@
+{
+	"info": {
+		"_postman_id": "29bb19bb-7b1a-4e1d-8301-bc384de38a39",
+		"name": "JAVA-Movies-App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30365952"
+	},
+	"item": [
+		{
+			"name": "createReview",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reviewBody\":\"Nema bolje film\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/movies/65e863d97dc67d12b5d57885/review",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"movies",
+						"65e863d97dc67d12b5d57885",
+						"review"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rateMovie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"rating\":81\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/movies/65e8b483c401435fc91b79a3/rate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"movies",
+						"65e8b483c401435fc91b79a3",
+						"rate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllReviews",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"reviewBody\":\"Filmciste\",\r\n    \"id\":\"65e863d97dc67d12b5d57885\",\r\n    \"rating\":10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/reviews",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"reviews"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createMovie",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\":\"Rambo 2\",\r\n\"description\": \"Great Movie\",\r\n\"year\":1984,\r\n\"genres\":[\"Action\",\"Drama\",\"Military\"],\r\n\"reviewIds\":[]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/movies/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"movies",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMovies",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"imdbId\":\"dfsdgdsaf\",\r\n\"title\":\"Space Jam\",\r\n\"releaseDate\":\"1998-12-21\",\r\n\"trailerLink\":\"https://www.youtube.com/watch?v=tHb7WlgyaUc\",\r\n\"genres\":[\"Animation\",\"Comedy\",\"Sport\",\"Drama\"],\r\n\"poster\":\"https://image.tmdb.org/t/p/w500/1NqwE6LP9IEdOZ57NCT51ftHtWT.jpg\",\r\n\"backdrops\":[\"https://image.tmdb.org/t/p/original/fnfirCEDIkxZnQEtEMMSgllm0KZ.jpg\"],\r\n\"reviewIds\":[]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"movies"
+					],
+					"query": [
+						{
+							"key": "yearFrom",
+							"value": "1995",
+							"disabled": true
+						},
+						{
+							"key": "yearTo",
+							"value": "1997",
+							"disabled": true
+						},
+						{
+							"key": "year",
+							"value": "1980",
+							"disabled": true
+						},
+						{
+							"key": "genre",
+							"value": "Action",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "title",
+							"value": "M3GAN",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMoviesById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"imdbId\":\"dfsdgdsaf\",\r\n\"title\":\"Space Jam\",\r\n\"releaseDate\":\"1998-12-21\",\r\n\"trailerLink\":\"https://www.youtube.com/watch?v=tHb7WlgyaUc\",\r\n\"genres\":[\"Animation\",\"Comedy\",\"Sport\",\"Drama\"],\r\n\"poster\":\"https://image.tmdb.org/t/p/w500/1NqwE6LP9IEdOZ57NCT51ftHtWT.jpg\",\r\n\"backdrops\":[\"https://image.tmdb.org/t/p/original/fnfirCEDIkxZnQEtEMMSgllm0KZ.jpg\"],\r\n\"reviewIds\":[]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/movies/65e863d97dc67d12b5d57885",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"movies",
+						"65e863d97dc67d12b5d57885"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMovieReviews",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"imdbId\":\"dfsdgdsaf\",\r\n\"title\":\"Space Jam\",\r\n\"releaseDate\":\"1998-12-21\",\r\n\"trailerLink\":\"https://www.youtube.com/watch?v=tHb7WlgyaUc\",\r\n\"genres\":[\"Animation\",\"Comedy\",\"Sport\",\"Drama\"],\r\n\"poster\":\"https://image.tmdb.org/t/p/w500/1NqwE6LP9IEdOZ57NCT51ftHtWT.jpg\",\r\n\"backdrops\":[\"https://image.tmdb.org/t/p/original/fnfirCEDIkxZnQEtEMMSgllm0KZ.jpg\"],\r\n\"reviewIds\":[]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/movies/65e863d97dc67d12b5d57885/reviews",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"movies",
+						"65e863d97dc67d12b5d57885",
+						"reviews"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
