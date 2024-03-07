@@ -6,12 +6,15 @@ This is a simple full-stack project is built using Java Spring Boot for the back
 # Installation Steps
 Backend (Java Spring Boot)
 Clone the repository:
+
 git clone https://github.com/FilipTomash/MovieApp.git
 
 Navigate to the backend directory:
+
 cd backend_java_API/movies
 
 Set up MongoDB Atlas:
+
 Create an account on MongoDB Atlas.
 
 Create a new cluster and obtain the connection string.
