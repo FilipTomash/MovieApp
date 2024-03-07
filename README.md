@@ -6,12 +6,10 @@ This is a simple full-stack project is built using Java Spring Boot for the back
 # Installation Steps
 Backend (Java Spring Boot)
 Clone the repository:
-
-# git clone https://github.com/FilipTomash/MovieApp.git
+git clone https://github.com/FilipTomash/MovieApp.git
 
 Navigate to the backend directory:
-
-# cd backend_java_API/movies
+cd backend_java_API/movies
 
 Set up MongoDB Atlas:
 Create an account on MongoDB Atlas.
@@ -21,11 +19,13 @@ Replace <mongo_connection_string> in application.properties with your MongoDB co
 Run the Spring Boot Application via your favorite IDE.
 The backend server should now be running at http://localhost:8080.
 
-Frontend (ReactJS)
+# Frontend (ReactJS)
+
 Navigate to the frontend directory:
 cd frontend_react_client
+
 Install dependencies:
-#npm install
+npm install
 
 Run the React App:
 npm run dev
