@@ -1,0 +1,199 @@
+[{
+  "_id": {
+    "$oid": "65e8e9c8d62b8dfe3b080e47"
+  },
+  "title": "Puss in Boots: The Last Wish",
+  "description": "Embark on an animated journey filled with action, adventure, and comedy for the whole family. Join Puss in Boots as he sets out on his last thrilling quest.",
+  "year": 2022,
+  "genres": [
+    "Animation",
+    "Action",
+    "Adventure",
+    "Comedy",
+    "Family"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/1NqwE6LP9IEdOZ57NCT51ftHtWT.jpg",
+  "reviewIds": [
+    {
+      "$oid": "65ea3a0074989c75ef79905b"
+    },
+    {
+      "$oid": "65ea3a0c74989c75ef79905c"
+    }
+  ],
+  "ratings": [
+    5,
+    9,
+    10
+  ],
+  "rating": 8,
+  "_class": "dev.tomashevski.movies.Movie"
+},
+{
+  "_id": {
+    "$oid": "65e8e9c8d62b8dfe3b080e48"
+  },
+  "title": "Avatar: The Way of Water",
+  "description": "Immerse yourself in a visually stunning science fiction adventure that transports you to the mystical world of Pandora. Join the journey of discovery in the search for the Way of Water.",
+  "year": 2022,
+  "genres": [
+    "Science Fiction",
+    "Action",
+    "Adventure"
+  ],
+  "reviewIds": [],
+  "ratings": [
+    6,
+    6
+  ],
+  "rating": 6,
+  "_class": "dev.tomashevski.movies.Movie",
+  "poster": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg"
+},
+{
+  "_id": {
+    "$oid": "65e8e9c8d62b8dfe3b080e49"
+  },
+  "title": "M3GAN",
+  "description": "Prepare for a thrilling ride through the realms of science fiction, horror, and comedy. Follow the story of M3GAN, a technological marvel with a mischievous mind of her own.",
+  "year": 2023,
+  "genres": [
+    "Science Fiction",
+    "Horror",
+    "Comedy"
+  ],
+  "reviewIds": [],
+  "poster": "https://image.tmdb.org/t/p/w500/xBl5AGw7HXZcv1nNXPlzGgO4Cfo.jpg"
+},
+{
+  "_id": {
+    "$oid": "65e8e9c8d62b8dfe3b080e4a"
+  },
+  "title": "Troll",
+  "description": "Enter a world of fantasy and adventure where trolls roam free and heroes rise to the challenge. Join the quest to defeat evil and restore peace to the land.",
+  "year": 2022,
+  "genres": [
+    "Fantasy",
+    "Action",
+    "Adventure"
+  ],
+  "reviewIds": [],
+  "poster": "https://image.tmdb.org/t/p/w500/9z4jRr43JdtU66P0iy8h18OyLql.jpg"
+},
+{
+  "_id": {
+    "$oid": "65e8e9c8d62b8dfe3b080e4b"
+  },
+  "title": "Black Adam",
+  "description": "Experience the awe-inspiring journey of Black Adam, a powerful force for justice in a world of fantasy and science fiction. Witness the rise of a hero in a time of darkness.",
+  "year": 2022,
+  "genres": [
+    "Fantasy",
+    "Action",
+    "Science Fiction"
+  ],
+  "reviewIds": [],
+  "poster": "https://image.tmdb.org/t/p/w500/pFlaoHTZeyNkG83vxsAJiGzfSsa.jpg"
+},
+{
+  "_id": {
+    "$oid": "65e8e9c8d62b8dfe3b080e4c"
+  },
+  "title": "Avatar",
+  "description": "Embark on an epic fantasy adventure to the distant planet of Pandora, where wonders and dangers await at every turn. Join the Na'vi in their fight to protect their home.",
+  "year": 2009,
+  "genres": [
+    "Fantasy",
+    "Action",
+    "Science Fiction",
+    "Adventure"
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg",
+  "reviewIds": [
+    {
+      "$oid": "65e9c3e7f68e063bdb3e3978"
+    },
+    {
+      "$oid": "65e9d5cbbc30602e6ba8be03"
+    }
+  ],
+  "ratings": [
+    4,
+    4,
+    7,
+    10,
+    7,
+    6,
+    6,
+    5,
+    10,
+    6
+  ],
+  "rating": 6.5,
+  "_class": "dev.tomashevski.movies.Movie"
+},
+{
+  "_id": {
+    "$oid": "65e8e9c8d62b8dfe3b080e4d"
+  },
+  "title": "Roald Dahl's Matilda the Musical",
+  "description": "Step into a world of magic and wonder where anything is possible. Join Matilda on her journey of self-discovery as she unlocks the secrets of her extraordinary abilities.",
+  "year": 2022,
+  "genres": [
+    "Fantasy",
+    "Family",
+    "Comedy"
+  ],
+  "reviewIds": [
+    {
+      "$oid": "65ea3b134c4bc63be4ec9bf3"
+    }
+  ],
+  "poster": "https://image.tmdb.org/t/p/w500/ga8R3OiOMMgSvZ4cOj8x7prUNYZ.jpg"
+},
+{
+  "_id": {
+    "$oid": "65e8e9c8d62b8dfe3b080e4e"
+  },
+  "title": "Black Panther: Wakanda Forever",
+  "description": "Journey to the futuristic world of Wakanda, where tradition meets technology and heroes rise to defend their homeland. Experience the power of Wakanda forever.",
+  "year": 2022,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Science Fiction"
+  ],
+  "reviewIds": [],
+  "poster:": "https://image.tmdb.org/t/p/w500/cryEN3sWlgB2wTzcUNVtDGI8bkM.jpg"
+},
+{
+  "_id": {
+    "$oid": "65e8e9c8d62b8dfe3b080e4f"
+  },
+  "title": "Strange World",
+  "description": "Embark on a thrilling family adventure where science fiction meets animation in a world like no other. Discover the wonders of a Strange World filled with mystery and excitement.",
+  "year": 2022,
+  "genres": [
+    "Family",
+    "Adventure",
+    "Science Fiction",
+    "Animation"
+  ],
+  "reviewIds": [],
+  "poster:": "https://image.tmdb.org/t/p/w500/kgJ8bX3zDQDM2Idkleis28XSVnu.jpg"
+},
+{
+  "_id": {
+    "$oid": "65e8e9c8d62b8dfe3b080e50"
+  },
+  "title": "The Woman King",
+  "description": "Witness the epic tale of The Woman King, a fearless warrior who defied the odds to protect her people and forge her own destiny. Experience the power of courage and resilience.",
+  "year": 2022,
+  "genres": [
+    "Action",
+    "Drama",
+    "History"
+  ],
+  "reviewIds": [],
+  "poster:": "https://image.tmdb.org/t/p/w500/5O1GLla5vNuegqNxNhKL1OKE1lO.jpg"
+}]
